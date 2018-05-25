@@ -1,0 +1,77 @@
+
+
+body {
+  font-family: times;
+  line-height: 1.4em;
+  color: #728FCC;
+  background-color: #eeeeee;
+  /*background-image: url(images/.jpg);
+  background-size: auto;*/
+  text-align: center;
+}
+
+header {
+	border: 1px dotted black;
+	margin: 36px;
+	/*padding: 10px;*/
+}
+
+div {
+	color: #728FCC;
+	text-decoration: underline;
+	padding: 20px;
+}
+
+
+#findme{
+	text-decoration: underline;
+	padding: 0px;
+}
+
+#intro {
+	background-color: ;
+	
+
+}
+
+.gallery{
+	text-align: center;
+	border-bottom-right-radius: 45px;
+	border-top-left-radius: 45px;
+}
+
+
+section{
+	background-color: white;
+	margin: 36px;
+	padding: 26px;
+}
+
+.black {
+	color: black;
+	font-family: 'Satisfy', cursive;
+	
+}
+
+article {
+	margin: 36px;
+	padding: 26px;
+	border-radius: 90px;
+	text-shadow: 1px 1px #757575;
+	width: 330;
+	height: auto;
+	color: black;
+	display: inline-block;
+
+}
+
+
+#test {
+	position: static;
+	margin-top: 
+
+}
+
+
+
+
