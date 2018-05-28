@@ -29,9 +29,9 @@ header {
 	padding: 10px;
 }
 
-.videosize{
+/*.videosize{
 	width: 100%;
-}
+}*/
 /*#nav a 
 
 nav ul li { 
@@ -44,6 +44,11 @@ nav ul li {
 ul li {
 	padding: 0px;
 }*/
+
+iframe {
+	width: 560px;
+	height: 315px;
+}
 
 
 div {
@@ -133,4 +138,32 @@ article {
 	bottom: 20px;
 	border: 1px solid black;
 }
+
+#chatbox:hover {
+	background-color: black;
+	color: white;
+}
+
+@media (max-width: 480px) {
+	iframe {
+		width: 200px;
+		/*height: auto;*/
+
+	}
+
+	body {
+		margin-left: 10px;
+	}
+
+	article {
+		width: 75%;
+		margin-left: 4%;
+	}
+}
+
+
+
+
+
+
 
