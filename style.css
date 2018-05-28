@@ -8,6 +8,9 @@ body {
   /*background-image: url(images/.jpg);
   background-size: auto;*/
   text-align: center;
+  width: 100%;
+  height: 100%;
+
 }
 
 header {
@@ -15,6 +18,33 @@ header {
 	margin: 36px;
 	/*padding: 10px;*/
 }
+
+#nav a {
+	display: flex;
+	justify-content: space-between;
+	float: right;
+	position: relative;
+	right: 15px;
+	margin: 10px;
+	padding: 10px;
+}
+
+.videosize{
+	width: 100%;
+}
+/*#nav a 
+
+nav ul li { 
+	display: inline-block;
+	justify-content: space-around;
+	margin: 20px;
+	padding: 5px;
+}
+
+ul li {
+	padding: 0px;
+}*/
+
 
 div {
 	color: #728FCC;
@@ -26,6 +56,9 @@ div {
 #findme{
 	text-decoration: underline;
 	padding: 0px;
+	position: relative;
+
+
 }
 
 #intro {
@@ -45,6 +78,7 @@ section{
 	background-color: white;
 	margin: 36px;
 	padding: 26px;
+	clear: right;
 }
 
 .black {
@@ -56,22 +90,47 @@ section{
 article {
 	margin: 36px;
 	padding: 26px;
-	border-radius: 90px;
 	text-shadow: 1px 1px #757575;
 	width: 330;
 	height: auto;
 	color: black;
 	display: inline-block;
+	justify-content: space-around;
 
 }
 
-
-#test {
-	position: static;
-	margin-top: 
+#social{
+	position: relative;
+	
 
 }
 
+#contact{
+	
+	display: flex;
+	justify-content: space-between;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-70px,-5px);
 
+}
 
+.insta {
+	position: relative;
+	bottom: -7.5px;
+	right: 10px;
+}
+
+/*#socialmedia{
+	display: flex;
+	justify-content: space-around;
+
+}*/
+
+#chatbox {
+	position: fixed;
+	bottom: 20px;
+	border: 1px solid black;
+}
 
